@@ -1,0 +1,92 @@
+footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    background-image: url(../images/footer1.jpeg);
+    background-size: cover;
+}
+
+.footer-container {
+    max-width: 1200px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-column {
+    margin: 0 20px;
+    flex: 1;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-bottom: 50px;
+    color: black;
+}
+
+p,
+li {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: rgb(10, 133, 164);
+    text-decoration: none;
+}
+
+.footerLinks:hover {
+    text-decoration: underline;
+}
+
+/* center the copyright component */
+div.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #070260;
+    color: #fff;
+}
+
+/* style the text */
+div.copyright p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* style the link */
+div.copyright a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.links{
+    display: grid;
+    grid-template-columns:0.5fr 0.5fr;
+}
+
+#linkedin{
+    color: #074ab0;
+    font-weight:bold;
+}
+
+@media (min-width:1024px) and (max-width:1440px){
+    footer{
+        /* padding: auto auto; */
+        /* margin: 0; */
+    }
+}

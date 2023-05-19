@@ -1,0 +1,41 @@
+.overlay-randd {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(16, 16, 16, 0.5);
+  }
+  
+  .image-container-career {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    /* or whatever height you want */
+  }
+  
+  .image-container-career img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .text-container-career {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+  }
+  
+  .text-container-career h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .text-container-career p {
+    font-size: 1.5rem;
+  }

@@ -1,0 +1,104 @@
+
+.maindiv{
+    padding: 5rem;
+    padding-top: 0;
+    padding-bottom: 2.2rem;
+    background-image: url(../images/contactcard.jpeg);
+    background-size: cover;
+}
+/* .overlay-contact{
+    background-color: #333333;
+} */
+
+/* .section-description h2{
+  font-size: 1.9rem;
+} */
+
+.section-contact2 {
+    padding: 50px 0;
+    text-align: center;
+  }
+
+  
+  .section-contact2 h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  .section-contact2 h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: yellow;
+  }
+  
+  .section-contact2 p {
+    font-size: 30px;
+    margin-bottom: 80px;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    /* color: rgb(174, 136, 54); */
+  }
+  
+  .section-contact2 button {
+    background-color:#bbd3e3;
+    margin-bottom: 0;
+    color: #333333;
+    font-size: 1.5rem;
+    padding: 0.75rem 2rem;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform s ease-in-out, box-shadow 3s ease-in-out;
+    
+  }
+  
+  .section-contact2 button:hover {
+    background-color: rgb(162, 197, 255);
+    transition: transform 0.4s ease-in-out, box-shadow 0.2s ease-in-out;
+    /* color: white; */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  @media (min-width: 1024px) and (max-width: 1440px) {
+    .maindiv {
+      position: relative;
+    }
+  
+    .overlay-contact {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+    }
+  
+    .section-contact2 {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      padding: 40px;
+    }
+  
+    .section-heading {
+      font-size: 32px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+  
+    .section-description {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+  
+    .contact-button {
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 4px;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+  }
+  
+  

@@ -1,0 +1,106 @@
+.my-section-project-section {
+    display: grid;
+    height: 380px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* margin-top: 1.7rem;
+    margin-bottom: 1.7rem; */
+  }
+  
+  .left-column-project-section {
+    /* background-color: #f0f0f0; */
+    border-right: 2px solid #bebebe;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 2rem;
+    text-align: right;
+    font-size: 2rem;
+  }
+  
+  .centered-text-project-section{
+    text-align: right;
+  }
+  
+  .spanText-project-section {
+    font-weight: lighter;
+    color: #303030;
+  }
+  
+  .right-column-project-section {
+    padding: 1rem;
+    text-align: left;
+    font-size: 1.45rem;
+    /* margin-top: 3rem; */
+    max-width: 700px;
+    font-weight: 200;
+  }
+  .right-column-project-section p{
+    font-size: 1.4rem;
+  }
+  
+  .about-button-project-section {
+    background-color:#bbd3e3;
+    color: #333333;
+    font-size: 1.5rem;
+    padding: 0.75rem 2rem;
+    border: none;
+    border: 1px solid black;
+    /* margin-top: 1.2rem; */
+    /* border-radius: 4px; */
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  .about-button-project-section:hover {
+    transform: translateY(-2px);
+    background-color: rgb(162, 197, 255);
+    /* color: white; */
+    border: 0.2px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  @media (min-width: 1024px) and (max-width: 1440px) {
+    .my-section-project-section {
+      height: auto;
+      margin: 50px 0;
+    }
+  
+    .left-column-project-section {
+      flex: 0 0 40%;
+      text-align: center;
+      padding-right: 20px;
+      padding-bottom: 0;
+      padding-top: 0;
+    }
+  
+    .centered-text-project-section {
+      margin: 0;
+      font-size: 36px;
+      font-weight: bold;
+    }
+
+    .right-column-project-section {
+      flex: 0 0 60%;
+      padding-left: 20px;
+      padding-right: 100px;
+      padding-bottom: 0;
+      padding-top: 0;
+    }
+  
+    .right-column-project-section p {
+      font-size: 18px;
+      line-height: 1.5;
+    }
+  
+    .about-button-project-section {
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+  

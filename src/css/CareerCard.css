@@ -1,0 +1,48 @@
+.container-careercard {
+  display: grid;
+  grid-template-rows: 1fr;
+  height: 600px;
+  background-color: white;
+}
+
+.centered-section-careercard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.centered-section-careercard h2 {
+  font-size: 2.5rem;
+}
+
+.centered-section-careercard p {
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  line-height: 1.7;
+  font-size: 1.3rem;
+}
+
+
+.span-text-careercard {
+  font-weight: 200;
+}
+
+@media (min-width:1024px) and (max-width:1440px){
+  .centered-section-careercard{
+    height: auto;
+  }
+  .centered-section-careercard p{
+    margin: 0 10%;
+  }
+}
+
+@media (min-width:1441px){
+  .centered-section-careercard{
+    height: auto;
+  }
+  .centered-section-careercard p{
+    margin: 0 10%;
+  }
+}

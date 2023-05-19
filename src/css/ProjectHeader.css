@@ -1,0 +1,43 @@
+
+
+.container-projectheader {
+    display: grid;
+    grid-template-rows:1fr;
+    height: 200px;
+    background-color: white;
+  }
+  
+  .centered-section-projectheader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .centered-section-projectheader h2{
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #d8d8d8;
+  }
+
+  .centered-section-projectheader p{
+    text-align: center;
+    margin-left: 20%;
+    margin-right:20% ;
+    margin-top: 0;
+    /* line-height: 1.7; */
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+  }
+
+
+.span-text-projectheader{
+    font-weight: 200;
+  }
+
+  @media (min-width:1024px) and (max-width:1440px){
+    .centered-section-projectheader p{
+      margin-left: 2%;
+      margin-right: 2%;
+    }
+  }

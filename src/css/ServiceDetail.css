@@ -1,0 +1,570 @@
+/* DRILLING CSS */
+
+.main-section-drilling {
+    display: flex;
+    padding: 20px;
+    background-color: #EEEEEE;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-bottom: 3%;
+    height: 550px;
+}
+
+.image-section-drilling {
+    flex: 1 1 50%;
+    align-self: center;
+    margin-right: 2%;
+}
+
+.description-section-drilling {
+    flex: 1 1 50%;
+    background-color: #c9c9c9;
+    padding-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.55) 0 3px 11px 0 !important;
+    color: black;
+    margin-right: 2%;
+}
+
+
+.description-section-drilling h2 {
+    margin-top: 0;
+    font-size: 3.2rem;
+    margin-left: 60px;
+    margin-bottom: 0;
+}
+
+.description-section-drilling p {
+    line-height: 1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-top: 2%;
+    border-top: 2px solid black;
+    font-size: 1.25rem;
+}
+
+.image-section-drilling img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.85) 0 3px 11px 0 !important;
+    height: 550px;
+}
+
+/* GEOTECHNICAL CSS */
+
+.main-section-geotechnical {
+    display: flex;
+    padding: 20px;
+    background-color: #f5f0df;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-bottom: 3%;
+    height: 550px;
+}
+
+.image-section-geotechnical {
+    flex: 1 1 50%;
+    align-self: center;
+    margin-right: 2%;
+}
+
+.description-section-geotechnical {
+    flex: 1 1 50%;
+    background-color: #E5BA73;
+    padding-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.55) 0 3px 11px 0 !important;
+    color: black;
+    margin-right: 2%;
+}
+
+.description-section-geotechnical h2 {
+    margin-top: 0;
+    font-size: 3.2rem;
+    margin-left: 60px;
+    margin-bottom: 0;
+}
+
+.description-section-geotechnical p {
+    line-height: 1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-top: 2%;
+    border-top: 2px solid black;
+    font-size: 1.30rem;
+}
+
+.image-section-geotechnical img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.85) 0 3px 11px 0 !important;
+    height: 550px;
+}
+
+
+/* Hydrogeological */
+
+.main-section-hydrogeological {
+    display: flex;
+    padding: 20px;
+    background-color: #ECF9FF;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-bottom: 3%;
+    height: 550px;
+}
+
+.image-section-hydrogeological {
+    flex: 1 1 50%;
+    align-self: center;
+    margin-right: 2%;
+}
+
+.description-section-hydrogeological {
+    flex: 1 1 50%;
+    background-color: #B4E4FF;
+    padding-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.55) 0 3px 11px 0 !important;
+    color: black;
+    margin-right: 2%;
+}
+
+.description-section-hydrogeological h2 {
+    margin-top: 0;
+    font-size: 3.2rem;
+    margin-left: 60px;
+    margin-bottom: 0;
+}
+
+.description-section-hydrogeological p {
+    line-height: 1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-top: 2%;
+    border-top: 2px solid black;
+    font-size: 1.30rem;
+}
+
+.image-section-hydrogeological img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.85) 0 3px 11px 0 !important;
+    height: 550px;
+}
+
+/* Environmental */
+
+
+.main-section-environmental {
+    display: flex;
+    padding: 20px;
+    background-color: #e1ffd7;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-bottom: 3%;
+    height: 550px;
+}
+
+.image-section-environmental {
+    flex: 1 1 50%;
+    align-self: center;
+    margin-right: 2%;
+}
+
+.description-section-environmental {
+    flex: 1 1 50%;
+    background-color: #ADE792;
+    padding-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.55) 0 3px 11px 0 !important;
+    color: black;
+    margin-right: 2%;
+}
+
+.description-section-environmental h2 {
+    margin-top: 0;
+    font-size: 3.2rem;
+    margin-left: 60px;
+    margin-bottom: 0;
+}
+
+.description-section-environmental p {
+    line-height: 1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-top: 2%;
+    border-top: 2px solid black;
+    font-size: 1.30rem;
+}
+
+.image-section-environmental img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.85) 0 3px 11px 0 !important;
+    height: 550px;
+}
+
+/* Slop Stability */
+
+.main-section-slop {
+    display: flex;
+    padding: 20px;
+    background-color: #FEF2F4;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-bottom: 3%;
+    height: 550px;
+}
+
+.image-section-slop {
+    flex: 1 1 50%;
+    align-self: center;
+    margin-right: 2%;
+}
+
+.description-section-slop {
+    flex: 1 1 50%;
+    background-color: #ffc0b4;
+    padding-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.55) 0 3px 11px 0 !important;
+    color: black;
+    margin-right: 2%;
+}
+
+.description-section-slop h2 {
+    margin-top: 0;
+    font-size: 3.2rem;
+    margin-left: 60px;
+    margin-bottom: 0;
+}
+
+.description-section-slop p {
+    line-height: 1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-top: 2%;
+    border-top: 2px solid black;
+    font-size: 1.30rem;
+}
+
+.image-section-slop img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.85) 0 3px 11px 0 !important;
+    height: 550px;
+}
+
+
+/* Shoring design */
+
+
+.main-section-shoring {
+    display: flex;
+    padding: 20px;
+    background-color: #FFF9DE;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-bottom: 3%;
+    height: 550px;
+}
+
+.image-section-shoring {
+    flex: 1 1 50%;
+    align-self: center;
+    margin-right: 2%;
+}
+
+.description-section-shoring {
+    flex: 1 1 50%;
+    background-color: #F7E1AE;
+    padding-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.55) 0 3px 11px 0 !important;
+    color: black;
+    margin-right: 2%;
+}
+
+.description-section-shoring h2 {
+    margin-top: 0;
+    font-size: 3.2rem;
+    margin-left: 60px;
+    margin-bottom: 0;
+}
+
+.description-section-shoring p {
+    line-height: 1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-top: 2%;
+    border-top: 2px solid black;
+    font-size: 1.30rem;
+    /* font-size: 21px; */
+}
+
+.image-section-shoring img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.85) 0 3px 11px 0 !important;
+    height: 550px;
+}
+
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+
+    /* Drilling Laptop */
+    .description-section-drilling {
+        flex: 1;
+        text-align: center;
+        height: auto;
+    }
+
+    .description-section-drilling h2 {
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    .description-section-drilling p {
+        font-size: 0.98rem;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    .image-section-drilling {
+        flex: 1;
+        height: auto;
+    }
+
+
+    /* Geotechnical Laptop */
+    .description-section-geotechnical {
+        flex: 1;
+        text-align: center;
+        height: auto;
+    }
+
+    .description-section-geotechnical h2 {
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    .description-section-geotechnical p {
+        font-size: 0.98rem;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    .image-section-geotechnical {
+        flex: 1;
+        height: auto;
+    }
+
+    /* Hydrogeological */
+    .description-section-hydrogeological {
+        flex: 1;
+        text-align: center;
+        height: auto;
+    }
+
+    .description-section-hydrogeological h2 {
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    .description-section-hydrogeological p {
+        font-size: 0.98rem;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    .image-section-hydrogeological {
+        flex: 1;
+        height: auto;
+    }
+
+    /* Enviromental */
+    .description-section-environmental {
+        flex: 1;
+        text-align: center;
+        height: auto;
+    }
+
+    .description-section-environmental h2 {
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    .description-section-environmental p {
+        font-size: 0.98rem;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    .image-section-environmental {
+        flex: 1;
+        height: auto;
+    }
+
+    /* Slope stability */
+    .description-section-slop {
+        flex: 1;
+        text-align: center;
+        height: auto;
+    }
+
+    .description-section-slop h2 {
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    .description-section-slop p {
+        font-size: 0.98rem;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    .image-section-slop {
+        flex: 1;
+        height: auto;
+    }
+
+    /* Shoring */
+    .description-section-shoring {
+        flex: 1;
+        text-align: center;
+        height: auto;
+    }
+
+    .description-section-shoring h2 {
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    .description-section-shoring p {
+        font-size: 0.98rem;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    .image-section-shoring {
+        flex: 1;
+        height: auto;
+    }
+}
+
+
+@media (min-width: 1601px){
+    .description-section-drilling p {
+        font-size: 1.2rem;
+    }
+    .description-section-geotechnical p {
+        font-size: 1.2rem;
+    }
+    .description-section-hydrogeological p {
+        font-size: 1.2rem;
+    }
+    .description-section-environmental p {
+        font-size: 1.2rem;
+    }
+    .description-section-slop p {
+        font-size: 1.2rem;
+    }
+    .description-section-shoring p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 1600px) {
+    .description-section-drilling p {
+        font-size: 1.14rem;
+    }
+    .description-section-geotechnical p {
+        font-size: 1.14rem;
+    }
+    .description-section-hydrogeological p {
+        font-size: 1.14rem;
+    }
+    .description-section-environmental p {
+        font-size: 1.14rem;
+    }
+    .description-section-slop p {
+        font-size: 1.14rem;
+    }
+    .description-section-shoring p {
+        font-size: 1.14rem;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+    .description-section-drilling p {
+        font-size: 1.07rem;
+    }
+    .description-section-geotechnical p {
+        font-size: 1.07rem;
+    }
+    .description-section-hydrogeological p {
+        font-size: 1.07rem;
+    }
+    .description-section-environmental p {
+        font-size: 1.07rem;
+    }
+    .description-section-slop p {
+        font-size: 1.07rem;
+    }
+    .description-section-shoring p {
+        font-size: 1.07rem;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+    .description-section-drilling p {
+        font-size: 0.92rem;
+    }
+    .description-section-geotechnical p {
+        font-size: 0.92rem;
+    }
+    .description-section-hydrogeological p {
+        font-size: 0.92rem;
+    }
+    .description-section-environmental p {
+        font-size: 0.92rem;
+    }
+    .description-section-slop p {
+        font-size: 0.92rem;
+    }
+    .description-section-shoring p {
+        font-size: 0.92rem;
+    }
+}
+
